@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import 'boostrap/dist/css/bootstrap.css';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import 'bootstrap/dist/css/bootstrap.css';
+import './css/index.css';
+import App from './src/components/App';
+import reportWebVitals from './src/reportWebVitals';
 import 'jquery/dist/jquery.js';
 import 'popper.js/dist/umd/popper.js';
 import 'bootstrap/dist/js/bootstrap.js';
