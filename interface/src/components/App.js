@@ -2,8 +2,8 @@ import React, { Component } from 'react'
 import '../css/App.css';
 
 import AddAppointments from './AddAppointments';
-import ListAppointments from './ListAppointments';
 import SearchAppointments from './SearchAppointments';
+import ListAppointments from './ListAppointments';
 
 class App extends Component {
   render() {
