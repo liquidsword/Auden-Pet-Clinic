@@ -44,7 +44,8 @@ class App extends Component {
               <div className="container">
                 <AddAppointments />
                 <SearchAppointments />
-                <ListAppointments appointments= {this.state.myAppointments} />
+                <ListAppointments appointments= {this.state.myAppointments}
+                  deleteAppointment={this.deleteAppointment} />
               </div>
             </div>
           </div>
