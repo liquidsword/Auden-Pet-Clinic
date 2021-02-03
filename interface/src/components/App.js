@@ -99,7 +99,8 @@ class App extends Component {
                   addAppointment = {this.addAppointment}
                 />
                 <SearchAppointments />
-                <ListAppointments appointments= {this.state.myAppointments}
+                <ListAppointments 
+                  appointments= {filteredApts}
                   deleteAppointment={this.deleteAppointment} />
               </div>
             </div>
