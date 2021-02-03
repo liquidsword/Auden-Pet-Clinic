@@ -6,7 +6,7 @@ body {
 
 header a,
 footer a {
-  color: white;
+  color: rgb(233, 168, 168);
 }
 
 footer {
@@ -15,6 +15,6 @@ footer {
 
 .bg-primary,
 .btn-primary {
-  background-color: #377bb5 !important;
+  background-color: #46e68e !important;
   border: inherit;
 }

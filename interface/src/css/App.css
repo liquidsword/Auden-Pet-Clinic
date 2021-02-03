@@ -12,7 +12,7 @@
 }
 
 .appointment-list .pet-item {
-  border-bottom: 1px dotted gray;
+  border-bottom: 1px dotted rgb(109, 104, 122);
 }
 
 .appointment-list .pet-item:last-child {
@@ -21,7 +21,7 @@
 
 .appointment-list .pet-name {
   font-weight: 600;
-  color: #337ab7;
+  color: #3b98e9;
   font-size: 1.3em;
   line-height: 100%;
 }
@@ -41,5 +41,5 @@
 
 .dropdown-item.active,
 .dropdown-item:active {
-  background-color: #a9aeb2;
+  background-color: #a5c0d6;
 }
