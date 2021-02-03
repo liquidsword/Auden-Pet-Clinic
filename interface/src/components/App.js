@@ -43,6 +43,10 @@ class App extends Component {
     });
   }
 
+  updateInfo(name, value, id) {
+    
+  }
+
   addAppointment(apt){
     let tempApts = this.state.myAppointments;
     apt.aptId = this.state.lastIndex;
@@ -133,7 +137,9 @@ class App extends Component {
                   />
                 <ListAppointments 
                   appointments= {filteredApts}
-                  deleteAppointment={this.deleteAppointment} />
+                  deleteAppointment={this.deleteAppointment} 
+                  updateInfo={this.updateInfo}
+                />
               </div>
             </div>
           </div>
