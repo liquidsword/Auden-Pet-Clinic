@@ -22,7 +22,7 @@ class ListAppointments extends Component {
                                 contentEditable 
                                 suppressContentEditableWarning
                                 onBlur={
-                                    e.this.props.updateInfo('petName', e.target.innerText, item.aptId)
+                                    e => this.props.updateInfo('petName', e.target.innerText, item.aptId)
                                 }
                             >
                                 {item.petName}
@@ -42,7 +42,7 @@ class ListAppointments extends Component {
                             contentEditable 
                             suppressContentEditableWarning
                             onBlur={
-                                    e.this.props.updateInfo('ownerName', e.target.innerText, item.aptId)
+                                    e => this.props.updateInfo('ownerName', e.target.innerText, item.aptId)
                                 }
                                 {item.ownerName}
                         </span>
@@ -51,7 +51,7 @@ class ListAppointments extends Component {
                             contentEditable 
                             suppressContentEditableWarning
                             onBlur={
-                                    e.this.props.updateInfo('aptNotes', e.target.innerText, item.aptId)
+                                e => this.props.updateInfo('aptNotes', e.target.innerText, item.aptId)
                                 }
                                 >
                                 {item.aptNotes}
