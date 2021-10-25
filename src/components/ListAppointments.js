@@ -38,12 +38,13 @@ class ListAppointments extends Component {
 
                     <div className="owner-name">
                         <span className="label-item">Owner: </span>
-                        <span> 
+                        <span className="owner-name" 
                             contentEditable 
                             suppressContentEditableWarning
                             onBlur={
                                     e => this.props.updateInfo('ownerName', e.target.innerText, item.aptId)
                                 }
+                                >
                                 {item.ownerName}
                         </span>
                     </div>
