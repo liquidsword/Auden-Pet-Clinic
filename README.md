@@ -1,6 +1,8 @@
-# Getting Started with Create React App
+# Auden's Pet Clinic🙈🐍🐇🐶🐱� 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+This is a schedule app for a vet's clinic. Users are able to schedule a time and date to bring their pet in to see the doctor
 
 ## Available Scripts
 
